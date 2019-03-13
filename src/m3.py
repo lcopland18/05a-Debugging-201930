@@ -123,8 +123,8 @@ def broken_1(m):
     #    **  For full credit you must appropriately
     #    **  use (call) the   is_prime   function that is DEFINED ABOVE.
     count = 0
-    for k in range((2 * m) + 1):
-        if is_prime(k+1):
+    for k in range(m+2):
+        if is_prime(k+m):
             count = count + 1
     return count
 
